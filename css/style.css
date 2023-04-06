@@ -129,4 +129,119 @@ table {
   --orange: #ff7f00;
   --white: #ffff;
   --black: #000;
+}
+
+nav ul {
+  margin-left: 230px;
+  font-size: 25px;
+  display: flex;
+  gap: 20px;
+}
+nav li {
+  font-family: "renner-regular";
+  padding-left: 20px;
+  list-style: none;
+}
+nav a {
+  color: var(--black);
+}
+
+#hero h1 {
+  padding-top: 130px;
+  line-height: 140px;
+  font-family: "renner-bold";
+  font-size: 92px;
+}
+#hero h1 span {
+  color: var(--orange);
+}
+
+#hero-inner {
+  margin-top: 300px;
+  background-color: var(--black);
+}
+#hero-inner .content {
+  padding-top: 180px;
+}
+#hero-inner .inner {
+  border: none;
+  border-radius: 1;
+  position: relative;
+  top: -340px;
+  background: var(--orange);
+}
+#hero-inner .inner .h1 {
+  padding: 50px;
+  font-size: 30px;
+  font-family: "renner-bold";
+  line-height: 60px;
+}
+#hero-inner .inner p {
+  padding: 55px;
+  font-family: "renner-medium";
+  font-size: 18px;
+  line-height: 30px;
+  margin-bottom: 20px;
+}
+#hero-inner img {
+  margin-top: 70px;
+}
+#hero-inner .text {
+  color: var(--white);
+  font-family: "renner-regular";
+  font-size: 16px;
+  margin-top: -210px;
+}
+#hero-inner .text p {
+  margin-bottom: 20px;
+}
+#hero-inner .text ul {
+  margin-left: 25px;
+  line-height: 25px;
+}
+#hero-inner .targets {
+  margin-top: 200px;
+  padding-bottom: 100px;
+}
+#hero-inner .inner-target {
+  border: none;
+  padding: 20px;
+  color: var(--black);
+  border-radius: 0;
+}
+#hero-inner .inner-target h1 {
+  font-family: "renner-bold";
+  font-size: 2rem;
+}
+#hero-inner .inner-target p {
+  margin-top: 15px;
+  font-family: "renner-medium";
+}
+#hero-inner .target-bar {
+  display: flex;
+  gap: 140px;
+}
+#hero-inner .one {
+  background-color: var(--orange);
+  color: var(--white);
+}
+#hero-inner .one span {
+  font-family: "renner-medium";
+  font-size: 15px;
+}
+#hero-inner .one .bar {
+  margin-top: 15px;
+  background-color: rgba(255, 255, 255, 0.1725490196);
+  width: 200px;
+  height: 10px;
+  border-radius: 20px;
+}
+#hero-inner .one .bar div {
+  background-color: var(--white);
+  height: 10px;
+  width: 150px;
+  border-radius: 20px;
+}
+#hero-inner .donate {
+  display: flex;
 }/*# sourceMappingURL=style.css.map */
