@@ -245,7 +245,7 @@ nav {
 
     .target-bar{
         display: flex;
-        gap: 140px;
+        justify-content: space-between;
     }
 
     .one{
@@ -277,8 +277,7 @@ nav {
     }
 
     .donate{
-    
         display: flex;
-        // gap: 320px;
+       justify-content: space-between;
     }
 }

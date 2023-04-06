@@ -219,7 +219,7 @@ nav a {
 }
 #hero-inner .target-bar {
   display: flex;
-  gap: 140px;
+  justify-content: space-between;
 }
 #hero-inner .one {
   background-color: var(--orange);
@@ -244,4 +244,5 @@ nav a {
 }
 #hero-inner .donate {
   display: flex;
+  justify-content: space-between;
 }/*# sourceMappingURL=style.css.map */
