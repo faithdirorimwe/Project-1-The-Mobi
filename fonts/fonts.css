@@ -1,0 +1,54 @@
+@font-face {
+    font-family: "renner-medium";
+    src: url(./Renner*\ 300\ Light.ttf);
+}
+
+@font-face {
+    font-family: "renner-regular";
+    src: url(./Renner*\ 500\ Medium.ttf);
+}
+
+@font-face {
+    font-family: "renner-semi";
+    src: url(./Renner*\ 600\ Semi.ttf);
+}
+
+
+@font-face {
+    font-family: "renner-bold";
+    src: url(./Renner*\ 700\ Bold.ttf);
+}
+
+
+@font-face {
+    font-family: "oswald-regular";
+    src: url(./Oswald-Regular.ttf);
+}
+
+@font-face {
+    font-family: "oswald-semi";
+    src: url(./Oswald-SemiBold.ttf);
+}
+
+
+@font-face {
+    font-family: "oswald-bold";
+    src: url(./Oswald-Bold.ttf);
+}
+
+
+@font-face {
+    font-family: "raleway-regular";
+    src: url(./Raleway-Regular.ttf);
+}
+
+@font-face {
+    font-family: "raleway-semi";
+    src: url(./Raleway-SemiBold.ttf);
+}
+
+
+@font-face {
+    font-family: "raleway-bold";
+    src: url(./Raleway-Bold.ttf);
+}
