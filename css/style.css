@@ -303,7 +303,7 @@ nav a {
   color: var(--white);
 }
 #aims .card img {
-  margin-left: 360px;
+  margin-left: 310px;
 }
 #aims .h1 {
   font-size: 45px;
@@ -440,10 +440,6 @@ nav a {
   #aims .card img {
     margin-left: 330px;
   }
-  #aims .p-text h1 div {
-    top: 10px;
-    right: -50px;
-  }
 }
 @media only screen and (max-width: 575px) {
   nav ul {
@@ -451,5 +447,9 @@ nav a {
   }
   #aims .card img {
     margin-left: 120px;
+  }
+  #aims .p-text h1 div {
+    top: 10px;
+    right: -50px;
   }
 }/*# sourceMappingURL=style.css.map */
