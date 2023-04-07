@@ -156,7 +156,7 @@ nav {
 
 #hero {
 
-    .heading{
+    .heading {
         z-index: 1;
     }
 
@@ -205,7 +205,7 @@ nav {
     }
 
 
-    img{
+    img {
         margin-top: 70px;
     }
 
@@ -219,57 +219,57 @@ nav {
             margin-bottom: 20px;
         }
 
-        ul{
+        ul {
             margin-left: 25px;
             line-height: 25px;
         }
     }
 
-    .targets{
+    .targets {
         margin-top: 200px;
         padding-bottom: 100px;
     }
 
-    .inner-target{
+    .inner-target {
         border: none;
         padding: 20px;
         color: var(--black);
         border-radius: 0;
 
-        h1{
+        h1 {
             font-family: "renner-bold";
             font-size: 2rem;
         }
 
-        p{
+        p {
             margin-top: 15px;
             font-family: "renner-medium";
         }
     }
 
-    .target-bar{
+    .target-bar {
         display: flex;
         justify-content: space-between;
     }
 
-    .one{
+    .one {
         background-color: var(--orange);
         color: var(--white);
 
-        span{
+        span {
             font-family: "renner-medium";
             font-size: 15px;
         }
 
-        .bar{
+        .bar {
             margin-top: 15px;
             background-color: rgba(255, 255, 255, 0.1725490196);
             width: 200px;
             height: 10px;
             border-radius: 20px;
 
-            div{
-               
+            div {
+
                 background-color: var(--white);
                 height: 10px;
                 width: 150px;
@@ -280,23 +280,23 @@ nav {
 
     }
 
-    .donate{
+    .donate {
         display: flex;
-       justify-content: space-between;
+        justify-content: space-between;
     }
 }
 
-#about{
-    .text{
-     margin-top: 150px;
-    
-        h1{
+#about {
+    .text {
+        margin-top: 150px;
+
+        h1 {
             color: var(--orange);
             font-family: "oswald-regular";
             font-size: 30px;
             letter-spacing: 1px;
 
-            div{
+            div {
                 background-color: var(--orange);
                 padding: 1px;
                 width: 110px;
@@ -307,67 +307,69 @@ nav {
         }
     }
 
-    .p-text{
+    .p-text {
         margin-top: 80px;
     }
-    p{
+
+    p {
         font-family: "renner-medium";
         font-size: 20px;
         line-height: 40px;
     }
 }
 
-#aims{
+#aims {
     background-color: var(--black);
     margin-top: 150px;
 
-    .aims-inner{
+    .aims-inner {
         padding-top: 150px;
     }
 
-    .text{
+    .text {
         padding: 73px;
     }
 
-    .card{
+    .card {
         background-color: var(--orange);
         border: none;
         border-radius: 0;
 
-        h1{
+        h1 {
             font-family: "renner-medium";
             font-family: 18px;
             margin-top: 115px;
             color: var(--white);
         }
 
-        img{
+        img {
             margin-left: 360px;
         }
     }
 
-    .h1{
+    .h1 {
         font-size: 45px;
         font-family: "renner-bold";
-        color: var(--black);  
-        line-height: 80px; 
+        color: var(--black);
+        line-height: 80px;
 
-        span{
+        span {
             color: var(--white);
         }
     }
 
-    .p-text{
+    .p-text {
         color: var(--white);
         padding: 50px;
-        h1{
+
+        h1 {
             color: var(--orange);
             font-family: "oswald-regular";
             font-size: 30px;
             letter-spacing: 1px;
             padding-bottom: 30px;
 
-            div{
+            div {
                 background-color: var(--orange);
                 padding: 1px;
                 width: 110px;
@@ -377,23 +379,24 @@ nav {
             }
         }
 
-        p{
+        p {
             font-family: "renner-medium";
             font-size: 20px;
-            line-height: 40px;  
+            line-height: 40px;
         }
     }
 
 }
 
-#donate{
+#donate {
     margin-top: 200px;
 
-    .donation-details{
+    .donation-details {
         display: flex;
         justify-content: center;
     }
-    h1{
+
+    h1 {
         color: var(--orange);
         font-family: "renner-semi";
         font-size: 70px;
@@ -401,15 +404,16 @@ nav {
     }
 
 
-    p{
+    p {
         font-family: "renner-regular";
         font-size: 16px;
         line-height: 25px;
     }
 
-    ul{
+    ul {
         margin-top: 20px;
-        li{
+
+        li {
             list-style: none;
             font-size: 16px;
             padding-top: 10px;
@@ -417,40 +421,41 @@ nav {
         }
     }
 
-    .connections{
+    .connections {
         padding-top: 250px;
         display: flex;
         justify-content: space-between;
     }
 
-    .connect{
+    .connect {
         padding-top: 100px;
         display: flex;
         justify-content: space-between;
     }
 }
 
-#contact{
+#contact {
     background-color: var(--black);
     margin-top: 200px;
     color: var(--white);
 
-    .contact-inner{
+    .contact-inner {
         padding-top: 100px;
     }
 
-    .get-in-touch{
+    .get-in-touch {
         margin-bottom: 150px;
     }
 
-    h1{
+    h1 {
         font-family: "renner-regular";
         font-size: 25px;
     }
 
-    ul{
+    ul {
         padding-top: 40px;
-        li{
+
+        li {
             list-style: none;
             padding-top: 10px;
             font-family: "renner-medium";
@@ -458,9 +463,10 @@ nav {
         }
     }
 
-    .links{
+    .links {
         padding-top: 40px;
-        a{
+
+        a {
             text-decoration: none;
             font-family: "renner-medium";
             color: var(--white);
@@ -468,53 +474,70 @@ nav {
             padding-left: 10px;
         }
     }
-    
-    .follow-us{
+
+    .follow-us {
         border-top: 2px solid #fff;
         font-family: "renner-medium";
         font-size: 16px;
         padding-bottom: 100px;
     }
-     
-    .social-links{
+
+    .social-links {
         margin-top: 100px;
         display: flex;
         gap: 10px;
     }
 
-    .copy-rights{
+    .copy-rights {
         margin-top: 100px;
-    
+
     }
 
 }
 
 
 @media only screen and (max-width:992px) {
-    nav{
+    nav {
         ul {
             margin-left: 10px;
-                   font-size: 15px;
-           }
-    }
-
-    #aims{
-
-        .col-md-6{
-          width: 100%;   
+            font-size: 15px;
         }
-       
+    }
+
+    #aims {
+
+        .col-md-6 {
+            width: 100%;
+        }
+
+        .card {
+            img {
+                margin-left: 180px;
+            }
+        }
+
+        .p-text {
+
+            h1 {
+               div {
+                top: 10px;
+                right: -50px;
+            } 
+            }
+
+         
+        }
 
     }
-  
+
 }
 
 
 @media only screen and (max-width:575px) {
-    nav{
-     ul{
-        flex-direction: column;
-    }    
+    nav {
+        ul {
+            flex-direction: column;
+        }
     }
-   
+
 }
