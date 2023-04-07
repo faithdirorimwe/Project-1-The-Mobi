@@ -131,6 +131,10 @@ table {
   --black: #000;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 nav ul {
   margin-left: 230px;
   font-size: 25px;
