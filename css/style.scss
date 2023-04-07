@@ -156,6 +156,10 @@ nav {
 
 #hero {
 
+    .heading{
+        z-index: 1;
+    }
+
     h1 {
         padding-top: 130px;
         line-height: 140px;
@@ -280,4 +284,237 @@ nav {
         display: flex;
        justify-content: space-between;
     }
+}
+
+#about{
+    .text{
+     margin-top: 150px;
+    
+        h1{
+            color: var(--orange);
+            font-family: "oswald-regular";
+            font-size: 30px;
+            letter-spacing: 1px;
+
+            div{
+                background-color: var(--orange);
+                padding: 1px;
+                width: 110px;
+                position: relative;
+                top: -20px;
+                right: -190px;
+            }
+        }
+    }
+
+    .p-text{
+        margin-top: 80px;
+    }
+    p{
+        font-family: "renner-medium";
+        font-size: 20px;
+        line-height: 40px;
+    }
+}
+
+#aims{
+    background-color: var(--black);
+    margin-top: 150px;
+
+    .aims-inner{
+        padding-top: 150px;
+    }
+
+    .text{
+        padding: 73px;
+    }
+
+    .card{
+        background-color: var(--orange);
+        border: none;
+        border-radius: 0;
+
+        h1{
+            font-family: "renner-medium";
+            font-family: 18px;
+            margin-top: 115px;
+            color: var(--white);
+        }
+
+        img{
+            margin-left: 360px;
+        }
+    }
+
+    .h1{
+        font-size: 45px;
+        font-family: "renner-bold";
+        color: var(--black);  
+        line-height: 80px; 
+
+        span{
+            color: var(--white);
+        }
+    }
+
+    .p-text{
+        color: var(--white);
+        padding: 50px;
+        h1{
+            color: var(--orange);
+            font-family: "oswald-regular";
+            font-size: 30px;
+            letter-spacing: 1px;
+            padding-bottom: 30px;
+
+            div{
+                background-color: var(--orange);
+                padding: 1px;
+                width: 110px;
+                position: relative;
+                top: -15px;
+                right: -290px;
+            }
+        }
+
+        p{
+            font-family: "renner-medium";
+            font-size: 20px;
+            line-height: 40px;  
+        }
+    }
+
+}
+
+#donate{
+    margin-top: 200px;
+
+    .donation-details{
+        display: flex;
+        justify-content: center;
+    }
+    h1{
+        color: var(--orange);
+        font-family: "renner-semi";
+        font-size: 70px;
+        line-height: 100px;
+    }
+
+
+    p{
+        font-family: "renner-regular";
+        font-size: 16px;
+        line-height: 25px;
+    }
+
+    ul{
+        margin-top: 20px;
+        li{
+            list-style: none;
+            font-size: 16px;
+            padding-top: 10px;
+            font-family: "renner-medium";
+        }
+    }
+
+    .connections{
+        padding-top: 250px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .connect{
+        padding-top: 100px;
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+#contact{
+    background-color: var(--black);
+    margin-top: 200px;
+    color: var(--white);
+
+    .contact-inner{
+        padding-top: 100px;
+    }
+
+    .get-in-touch{
+        margin-bottom: 150px;
+    }
+
+    h1{
+        font-family: "renner-regular";
+        font-size: 25px;
+    }
+
+    ul{
+        padding-top: 40px;
+        li{
+            list-style: none;
+            padding-top: 10px;
+            font-family: "renner-medium";
+            font-size: 18px;
+        }
+    }
+
+    .links{
+        padding-top: 40px;
+        a{
+            text-decoration: none;
+            font-family: "renner-medium";
+            color: var(--white);
+            font-size: 20px;
+            padding-left: 10px;
+        }
+    }
+    
+    .follow-us{
+        border-top: 2px solid #fff;
+        font-family: "renner-medium";
+        font-size: 16px;
+        padding-bottom: 100px;
+    }
+     
+    .social-links{
+        margin-top: 100px;
+        display: flex;
+        gap: 10px;
+    }
+
+    .copy-rights{
+        margin-top: 100px;
+    
+    }
+
+}
+
+
+@media only screen and (max-width:992px) {
+    nav{
+        ul {
+            margin-left: 10px;
+                   font-size: 15px;
+           }
+    }
+
+    #aims{
+
+        .col-md-6{
+          width: 100%;   
+        }
+       
+
+    }
+  
+}
+
+
+@media only screen and (max-width:575px) {
+    nav{
+     ul{
+        flex-direction: column;
+    }    
+    }
+   
 }

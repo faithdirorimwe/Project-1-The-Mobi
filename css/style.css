@@ -146,6 +146,9 @@ nav a {
   color: var(--black);
 }
 
+#hero .heading {
+  z-index: 1;
+}
 #hero h1 {
   padding-top: 130px;
   line-height: 140px;
@@ -245,4 +248,190 @@ nav a {
 #hero-inner .donate {
   display: flex;
   justify-content: space-between;
+}
+
+#about .text {
+  margin-top: 150px;
+}
+#about .text h1 {
+  color: var(--orange);
+  font-family: "oswald-regular";
+  font-size: 30px;
+  letter-spacing: 1px;
+}
+#about .text h1 div {
+  background-color: var(--orange);
+  padding: 1px;
+  width: 110px;
+  position: relative;
+  top: -20px;
+  right: -190px;
+}
+#about .p-text {
+  margin-top: 80px;
+}
+#about p {
+  font-family: "renner-medium";
+  font-size: 20px;
+  line-height: 40px;
+}
+
+#aims {
+  background-color: var(--black);
+  margin-top: 150px;
+}
+#aims .aims-inner {
+  padding-top: 150px;
+}
+#aims .text {
+  padding: 73px;
+}
+#aims .card {
+  background-color: var(--orange);
+  border: none;
+  border-radius: 0;
+}
+#aims .card h1 {
+  font-family: "renner-medium";
+  font-family: 18px;
+  margin-top: 115px;
+  color: var(--white);
+}
+#aims .card img {
+  margin-left: 360px;
+}
+#aims .h1 {
+  font-size: 45px;
+  font-family: "renner-bold";
+  color: var(--black);
+  line-height: 80px;
+}
+#aims .h1 span {
+  color: var(--white);
+}
+#aims .p-text {
+  color: var(--white);
+  padding: 50px;
+}
+#aims .p-text h1 {
+  color: var(--orange);
+  font-family: "oswald-regular";
+  font-size: 30px;
+  letter-spacing: 1px;
+  padding-bottom: 30px;
+}
+#aims .p-text h1 div {
+  background-color: var(--orange);
+  padding: 1px;
+  width: 110px;
+  position: relative;
+  top: -15px;
+  right: -290px;
+}
+#aims .p-text p {
+  font-family: "renner-medium";
+  font-size: 20px;
+  line-height: 40px;
+}
+
+#donate {
+  margin-top: 200px;
+}
+#donate .donation-details {
+  display: flex;
+  justify-content: center;
+}
+#donate h1 {
+  color: var(--orange);
+  font-family: "renner-semi";
+  font-size: 70px;
+  line-height: 100px;
+}
+#donate p {
+  font-family: "renner-regular";
+  font-size: 16px;
+  line-height: 25px;
+}
+#donate ul {
+  margin-top: 20px;
+}
+#donate ul li {
+  list-style: none;
+  font-size: 16px;
+  padding-top: 10px;
+  font-family: "renner-medium";
+}
+#donate .connections {
+  padding-top: 250px;
+  display: flex;
+  justify-content: space-between;
+}
+#donate .connect {
+  padding-top: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+
+#contact {
+  background-color: var(--black);
+  margin-top: 200px;
+  color: var(--white);
+}
+#contact .contact-inner {
+  padding-top: 100px;
+}
+#contact .get-in-touch {
+  margin-bottom: 150px;
+}
+#contact h1 {
+  font-family: "renner-regular";
+  font-size: 25px;
+}
+#contact ul {
+  padding-top: 40px;
+}
+#contact ul li {
+  list-style: none;
+  padding-top: 10px;
+  font-family: "renner-medium";
+  font-size: 18px;
+}
+#contact .links {
+  padding-top: 40px;
+}
+#contact .links a {
+  text-decoration: none;
+  font-family: "renner-medium";
+  color: var(--white);
+  font-size: 20px;
+  padding-left: 10px;
+}
+#contact .follow-us {
+  border-top: 2px solid #fff;
+  font-family: "renner-medium";
+  font-size: 16px;
+  padding-bottom: 100px;
+}
+#contact .social-links {
+  margin-top: 100px;
+  display: flex;
+  gap: 10px;
+}
+#contact .copy-rights {
+  margin-top: 100px;
+}
+
+@media only screen and (max-width: 992px) {
+  nav ul {
+    margin-left: 10px;
+    font-size: 15px;
+  }
+  #aims .col-md-6 {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 575px) {
+  nav ul {
+    flex-direction: column;
+  }
 }/*# sourceMappingURL=style.css.map */
