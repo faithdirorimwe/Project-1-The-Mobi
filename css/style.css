@@ -295,6 +295,7 @@ nav a {
   background-color: var(--orange);
   border: none;
   border-radius: 0;
+  margin-bottom: 50px;
 }
 #aims .card h1 {
   font-family: "renner-medium";
