@@ -468,4 +468,8 @@ nav a {
     right: -240px;
     width: 65px;
   }
+  #contact .links {
+    flex-direction: column;
+    gap: 10px;
+  }
 }/*# sourceMappingURL=style.css.map */
