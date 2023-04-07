@@ -387,6 +387,9 @@ nav a {
 #contact .get-in-touch {
   margin-bottom: 150px;
 }
+#contact .details {
+  margin-top: 60px;
+}
 #contact h1 {
   font-family: "renner-regular";
   font-size: 25px;
@@ -434,7 +437,7 @@ nav a {
     width: 100%;
   }
   #aims .card img {
-    margin-left: 180px;
+    margin-left: 330px;
   }
   #aims .p-text h1 div {
     top: 10px;
@@ -444,5 +447,8 @@ nav a {
 @media only screen and (max-width: 575px) {
   nav ul {
     flex-direction: column;
+  }
+  #aims .card img {
+    margin-left: 120px;
   }
 }/*# sourceMappingURL=style.css.map */

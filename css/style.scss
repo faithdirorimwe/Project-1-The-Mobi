@@ -450,6 +450,10 @@ nav {
         margin-bottom: 150px;
     }
 
+    .details{
+        margin-top: 60px;
+    }
+
     h1 {
         font-family: "renner-regular";
         font-size: 25px;
@@ -515,7 +519,7 @@ nav {
 
         .card {
             img {
-                margin-left: 180px;
+                margin-left: 330px;
             }
         }
 
@@ -540,6 +544,15 @@ nav {
     nav {
         ul {
             flex-direction: column;
+        }
+    }
+
+    #aims{
+
+        .card {
+            img {
+                margin-left: 120px;
+            }
         }
     }
 
